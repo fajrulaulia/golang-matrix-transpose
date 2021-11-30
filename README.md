@@ -22,3 +22,4 @@ go run cmd/main.go
 ```bash
 go test -v
 ```
+output : https://github.com/fajrulaulia/golang-matrix-transpose/runs/4368031739?check_suite_focus=true#step:6:1
