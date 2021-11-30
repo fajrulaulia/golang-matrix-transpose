@@ -1,6 +1,6 @@
 # Golang Matrix Transpose
 
-# Apa itu matrix transpose/what is matrix transpose?
+## Apa itu matrix transpose/what is matrix transpose?
 Id:
 Operasi transpose hanya terdapat pada matriks dan vektor. Pada skalar tidak dilakukan operasi transpose karena skalar hanya memiliki satu baris dan satu kolom, sehingga transpose pada skalar sama dengan skalar tersebut.
 [https://www.rumusstatistik.com/2016/10/transpose-matriks.html]
