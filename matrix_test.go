@@ -41,3 +41,20 @@ func TestTransposeMatrix3x2(t *testing.T) {
 	result := PrintMatrixAsString(matrix)
 	assert.Equal(t, result, testReality)
 }
+
+func TestTransposeMatrix2x3(t *testing.T) {
+
+	testCase := [][]uint8{
+		{0, 1, 2},
+		{3, 4, 4},
+	}
+
+	testReality := "| 0  1  2 |\n| 3  4  4 |\n"
+	preTranspose := PrintMatrixAsString(testCase)
+	assert.Equal(t, preTranspose, testReality)
+
+	testReality = "| 0  3 |\n| 1  4 |\n| 2  4 |\n"
+	matrix := TransposMatrix(testCase)
+	result := PrintMatrixAsString(matrix)
+	assert.Equal(t, result, testReality)
+}
